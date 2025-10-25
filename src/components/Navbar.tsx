@@ -17,7 +17,7 @@ import { useTheme } from "next-themes";
 const Navbar = () => {
   const { setTheme } = useTheme();
   return (
-    <nav className="flex p-4 items-center justify-between">
+    <nav className="flex p-4 items-center">
       {/* LEFT */}
       collapseButton
       {/* RIGHT */}
